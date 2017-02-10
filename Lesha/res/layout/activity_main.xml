@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app=""
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
@@ -29,7 +30,7 @@
         android:layout_width="wrap_content" />
 
     <Button
-        android:id="@+id/angry_btn"
+        android:id="@+id/kek"
 
         android:text="Back"
         android:textColor="#FFFFFF"
@@ -43,7 +44,8 @@
         android:shadowDy="0"
         android:shadowRadius="5"
         android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:onClick="onClick" />
 
 
 </RelativeLayout>
